@@ -39,7 +39,7 @@ built and shared global hydrological model.
 To to show what we envision for the environment and collect feedback on our 
 efforts at every turn, we have prepared a "Minimum Viable Product" demo.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=XtLkBb-R9B4" target="_blank"><img src="http://img.youtube.com/vi/XtLkBb-R9B4/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=XtLkBb-R9B4" target="_blank"><img src="assets/ewatitle.png" 
 alt="eWaterCycle Demo Video" width="640" height="360" border="10" /></a>
 
 
