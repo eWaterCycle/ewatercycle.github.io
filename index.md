@@ -2,7 +2,6 @@
 layout: home
 ---
 
-# eWaterCycle II Project Website
 
 The eWaterCycle II project envisions a collaborative environment containing 
 many local and global hydrological models, allowing hydrologists to run 
