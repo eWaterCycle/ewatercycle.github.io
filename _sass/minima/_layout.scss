@@ -283,7 +283,7 @@
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
 
-.people img {
+img .people  {
   max-height: 3rem;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -294,7 +294,7 @@
   -moz-transition: all 0.15s ease-in-out 0s;
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
-.people img:hover {
+img:hover .people {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
