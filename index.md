@@ -2,7 +2,6 @@
 layout: home
 ---
 
-# eWaterCycle II Project Website
 
 Understanding water movement on a global scale is essential for society 
 to predict floods, droughts and the effect of landuse on water balance. 
