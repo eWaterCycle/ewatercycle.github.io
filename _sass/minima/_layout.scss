@@ -283,18 +283,18 @@
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
 
-img .people  {
-  max-height: 3rem;
+.people  {
+  max-height: 94px;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 0.5;
+  opacity: 1;
   transition: all 0.15s ease-in-out 0s;
   -ms-transition: all 0.15s ease-in-out 0s;
   -moz-transition: all 0.15s ease-in-out 0s;
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
-img:hover .people {
+.people:hover {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
@@ -303,4 +303,9 @@ img:hover .people {
   -ms-transition: all 0.15s ease-in-out 0s;
   -moz-transition: all 0.15s ease-in-out 0s;
   -webkit-transition: all 0.15s ease-in-out 0s;
+}
+
+.people_banner {
+  margin: auto;
+  padding: 10px;
 }

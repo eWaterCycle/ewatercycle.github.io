@@ -24,6 +24,10 @@ In this enviroment, they can, for example, easily;
 * Perform data assimilation to improve model accuracy.
 * Reproduce the results obtained by their peers.
 
+
+<figure><iframe width="800" height="450" src="https://www.youtube.com/embed/XtLkBb-R9B4" frameborder="0" allowfullscreen></iframe><figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption></figure>
+
+
 Additionally, we are actively involving the global community of hydrologists 
 through our OpenHYDRO platform to;
 * Ensure our platform meets the needs of the scientific community.
@@ -36,9 +40,6 @@ and analyze their models and contribute to the greater goal of a community
 built and shared global hydrological model.
 
 To to show what we envision for the environment and collect feedback on our 
-efforts at every turn, we have prepared a "Minimum Viable Product" demo.
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=XtLkBb-R9B4" target="_blank"><img src="assets/ewatitle.png" 
-alt="eWaterCycle Demo Video" width="640" height="360" border="10" /></a>
+efforts at every turn, we have prepared a "Minimum Viable Product" demo above.
 
 
