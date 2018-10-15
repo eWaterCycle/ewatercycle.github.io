@@ -8,6 +8,14 @@ github_username:  eWaterCycle
 minima:
   date_format: "%b %-d, %Y"
 
+partners:
+  - logo_url: https://www.esciencecenter.nl/img/pressroom/ESCIENCE_logo_C_nl_cyanblack.jpg
+    url: https://www.esciencecenter.nl
+  - logo_url: https://ewatercycle.github.io/img/logoTUd_170.jpg
+    url: https://www.tudelft.nl/en/
+# - logo_url: <FIXME AND OPTIONALLY REPEATME>
+#   url: <FIXME AND OPTIONALLY REPEATME>
+
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
