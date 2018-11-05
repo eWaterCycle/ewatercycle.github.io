@@ -1,4 +1,8 @@
 
+This glossary is a list of terms commonly used in eWaterCycle II project. 
+
+***Disclaimer:** The definitions and descriptions may not be agreed upon by every individual in the hydrological community, but will serves to provide a common ground for anyone working in the eWaterCycle II project.*
+
 **Model:** A model is the (software) implementation of an algorithm. It computes state vectors using previous state vectors, parameters and/or observations. 
 Note that in this definition model does not include the parameters and/or observations (see Input set below).
 
