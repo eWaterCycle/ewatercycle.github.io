@@ -22,8 +22,7 @@ header_pages:
 #  - forecast.md
  - people.md
 #  - contact.md
-
-- Glossary.md
+ - Glossary.md
 
 # Build settings
 markdown: kramdown
