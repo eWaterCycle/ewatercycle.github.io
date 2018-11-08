@@ -9,11 +9,15 @@ cycle.
 
 # Install the website locally (for development)
 
-git clone git@github.com:eWaterCycle/ewatercycle.github.io.git
-sudo apt-get install ruby-full
-sudo gem install bundler
-sudo bundle install
+```
+git clone git@github.com:eWaterCycle/ewatercycle.github.io.git  
+sudo apt-get install ruby-full  
+sudo gem install bundler  
+sudo bundle install  
+```
 
 # Run the website locally
 
-bundle exec jekyll serve
+```
+bundle exec jekyll serve  
+```
