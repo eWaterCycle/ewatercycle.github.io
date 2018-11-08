@@ -21,6 +21,7 @@ partners:
 header_pages:
 #  - forecast.md
  - people.md
+#  - Glossary.md
 #  - contact.md
 
 # Build settings
