@@ -43,7 +43,10 @@ intend to deploy the system on more robust infrastructure and open up the enviro
 a screencast of the MVP in action. In it we select a model from our experiment finder. We automatically launch a jupyter notebook with python code that runs 
 the model and plots a hydrograph. The model is not part of the notebook: it is a process in a separate container that talks to the notebook.
 
-<figure><iframe width="600" height="330" src="https://www.youtube.com/embed/XtLkBb-R9B4" frameborder="0" allowfullscreen></iframe><figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption></figure>
+<figure>
+<iframe width="600" height="330" src="https://www.youtube.com/embed/XtLkBb-R9B4" frameborder="0" allowfullscreen></iframe>
+<figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption>
+</figure>
 
 Had the model of ‘that other hydrology group’ be in our system, than the phd student from the start of this blog wouldn’t have to despair: three clicks and 
 she could have looked at an hydrograph. Our MVP allows hydrologist to quickly run pre-existing models, compare outputs of different models and change the 
