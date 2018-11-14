@@ -1,7 +1,9 @@
 ---
+layout: home
 title: Glossary
-text: faded
 ---
+# eWaterCycle Glossary
+
 This glossary is a list of terms commonly used in eWaterCycle II project. 
 
 ***Disclaimer:** The definitions and descriptions may not be agreed upon by every individual in the hydrological community, but will serves to provide a common ground for anyone working in the eWaterCycle II project.*
@@ -58,5 +60,7 @@ Note that in this definition model does not include the parameters and/or observ
 
 **Analysis (data assimilation):** the state of the model after updating / assimilating new observations into the model. Sometimes explained as “the best estimate of the current state based on observations and historical model runs”. Note that the observation itself has some pdf, that the new forecast has to take into account. 
 
-**Reanalysis:** model state and output generated using forcing that has become available (long) after real time. Usually considered “the best estimate of how things were”.  
+**Reanalysis:** model state and output generated using forcing that has become available (long) after real time. Usually considered “the best estimate of how things were”.
+
+--------------------------------
 
