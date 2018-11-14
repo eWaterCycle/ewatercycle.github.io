@@ -205,21 +205,12 @@ pre {
 }
 
 .preview-img {
-  max-width: #{$preview-img-width};
-  width: #{$preview-img-width};
+  max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
 
   @include media-query($on-laptop) {
-    max-width: #{$preview-img-width};
-  }
-}
-
-.preview-with-img {
-  max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
-  max-width:         calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
-    max-width:         calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
+    max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
   }
 }
 

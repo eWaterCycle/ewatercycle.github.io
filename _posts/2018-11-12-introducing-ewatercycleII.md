@@ -1,12 +1,15 @@
 ---
 layout: post
-title: “Nice hydrographs! Can you now compare your model to ‘that other model’?”
-preview-image: 
+title: "Nice hydrographs for everyone from everyone, introducing eWaterCycle II"
+image: /assets/photo_by_rolf.jpg
 authors: "Rolf Hut"
 ---
 
+> *“Nice hydrographs! Can you now compare your model to ‘that other hydrology groups model’?”*
+
+
 The phd student suppresses the urge to roll her eyes. Her supervisor is asking her to go back into 
-code-hell. That other model is written in Fortran and she works in Python. It took her two months to 
+code-hell.<!--break--> That other model is written in Fortran and she works in Python. It took her two months to 
 get the Python model used in her group running in the first place. Realizing she needed to install an 
 obtuse library on her computer needed by a hidden part of the hydrological model that the post-doc who 
 left science four months ago had added took her two weeks alone. She doesn’t look forward to installing 
@@ -55,7 +58,7 @@ The model is not part of the notebook: it is a process in a separate container t
 notebook.
 
 <figure>
-<iframe width="600" height="330" src="https://www.youtube.com/embed/XtLkBb-R9B4" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="330" src="https://www.youtube.com/embed/cqvPB-KHbrk" frameborder="0" allowfullscreen></iframe>
 <figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption>
 </figure>
 
