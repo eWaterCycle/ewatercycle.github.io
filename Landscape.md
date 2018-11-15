@@ -150,7 +150,7 @@ artificial intelligence technologies to assist modelers by automating and improv
 
 ## Friendly Neighbourhood Hydrological Models
 
-*Hydrological models that we would like to include in eWatercycle II (but see cartoon for unwanted outcome, **credit:** [xkcd](https://xkcd.com/927/).*
+*Hydrological models that we would like to include in eWatercycle II (but see cartoon for unwanted outcome, **credit:** [xkcd](https://xkcd.com/927/)).*
 
 ![center-aligned-image](/assets/standards.png){: .align-center}
 
