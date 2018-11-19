@@ -58,7 +58,9 @@ The model is not part of the notebook: it is a process in a separate container t
 notebook.
 
 <figure>
-<iframe width="600" height="330" src="https://www.youtube.com/embed/cqvPB-KHbrk" frameborder="0" allowfullscreen></iframe>
+<div class="aspect-ratio">
+<iframe src="https://www.youtube.com/embed/cqvPB-KHbrk" frameborder="0" allowfullscreen></iframe>
+</div>
 <figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption>
 </figure>
 
