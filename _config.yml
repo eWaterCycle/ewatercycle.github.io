@@ -25,7 +25,9 @@ header_pages:
 #  - forecast.md
  - about.md
  - people.md
-#  - Glossary.md
+ - Glossary.md
+ - Landscape.md
+# - Personas.md
 #  - contact.md
 
 # Build settings
