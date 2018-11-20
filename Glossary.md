@@ -4,7 +4,7 @@ title: Glossary
 ---
 # eWaterCycle Glossary
 
-This glossary is a list of terms commonly used in eWaterCycle II project. 
+This glossary is a list of terms commonly used within the eWaterCycle II system. 
 
 ***Disclaimer:** The definitions and descriptions may not be agreed upon by every individual in the hydrological community, but will serve as a common ground for anyone working in the eWaterCycle II project.*
 
