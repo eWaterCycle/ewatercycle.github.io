@@ -77,9 +77,10 @@
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba($grey-color, .7);
+            color: rgba(black, 1);
+            text-shadow: 0px 0px 6px rgba(white, 1), 0px 0px 3px rgba(white, 1), 0px 0px 12px rgba(white, 1), 0px 0px 18px rgba(white, 1);
             &:hover {
-                color: $grey-color;
+                color: $grey-color-dark;
             }
         }
         &.affix {
