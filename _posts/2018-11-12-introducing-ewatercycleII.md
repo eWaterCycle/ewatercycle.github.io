@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nice hydrographs for everyone from everyone, introducing eWaterCycle II"
-image: /assets/photo_by_rolf.jpg
+image: https://www.ewatercycle.org/assets/photo_by_rolf.jpg
 authors: "Rolf Hut"
 ---
 
