@@ -6,7 +6,7 @@ layout: home
 
 Understanding water movement on a global scale is essential for society 
 to predict floods, droughts and the effect of land use on water balance. 
-However, large scale hydrology is difficult becausei, from a hydrological 
+However, large scale hydrology is difficult because, from a hydrological 
 point of view, every field, every street, and every part of the world is 
 unique. We are able to understand and describe how water moves in these 
 locations at a local scale, but due to the extreme spatial variability 
