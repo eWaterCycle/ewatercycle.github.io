@@ -7,11 +7,11 @@
 
     {% include header.html %}
 
-    <div style="background: url(img/wave.jpg) no-repeat center center; background-size: cover; height: 200px; display:block;">
-
-
-    </div>
-
+    <figure>
+      <div style="background: url(img/mackenzie_river.jpg) no-repeat center center; background-size: cover; height: 200px; display:block;"></div>
+      <figcaption style="text-align:right">NASA: Mackenzie River in Canada's Northwest Territories</figcaption>
+    <figure>
+    
     <main class="page-content" aria-label="Content">
 
       <div class="wrapper">
@@ -23,29 +23,32 @@
             {% for post in site.posts limit:10 %}
               <li>
                 <div class="blog-post">
+
+                {% if post.image %}
+                    <a class="preview-img" href="{{ post.url | relative_url }}"><img style="border: 1px solid rgba(0,0,0,.15);" src="{{ post.image }}"></a>
+                {% endif %}
+
+
+                <h3>
+                   <a class="post-link post-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h3>
+                <div class="post-content">
+
+                {% if post.content contains '<!--break-->' %}
+                <div class="preview">
+
+                    {{ post.content | split:'<!--break-->' | first }}.. 
+                    <a href="{{ post.url }}">Read more</a>
+
+                </div>
+                {% endif %}
+
+                {{ post.authors | escape }}
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-                <h2>
-                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h2>
-                {% if post.content contains '<!--break-->' %}
-                <div class="preview">
-                {% if post.image %}
-                <div class="preview-with-img">
-                {% else %}
-                <div class="post-content">
-                {% endif %}
-                    {{ post.content | split:'<!--break-->' | first }}
-                    <a href="{{ post.url }}">Read more</a>
-                </div>
-                {% if post.image %}
-                <a class="preview-img" href="{{ post.url | relative_url }}"><img src="{{ post.image }}"></a>
-                {% endif %}
-
                 </div>
                 </div>
-                {% endif %}
 
               </li>
             {% endfor %}

@@ -30,10 +30,18 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
+h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+h1, h2, h3 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -.015em;
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -205,21 +213,12 @@ pre {
 }
 
 .preview-img {
-  max-width: #{$preview-img-width};
-  width: #{$preview-img-width};
+  max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
 
   @include media-query($on-laptop) {
-    max-width: #{$preview-img-width};
-  }
-}
-
-.preview-with-img {
-  max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
-  max-width:         calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
-    max-width:         calc(#{$content-width} - #{$rightcol-width} - #{$preview-img-width} - (#{$spacing-unit} * 4));
+    max-width: -webkit-calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - #{$rightcol-width} - (#{$spacing-unit} * 2));
   }
 }
 

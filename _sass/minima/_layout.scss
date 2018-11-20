@@ -195,11 +195,14 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  color: $grey-color-dark;
 }
 
 
@@ -213,28 +216,38 @@
   moz-box-shadow: 0px 0px 7px 0px rgba(194,194,194,1);
   box-shadow: 0px 0px 7px 0px rgba(194,194,194,1);
 
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
 }
 
 .post-header {
   margin-bottom: $spacing-unit;
+
 }
 
 .post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
+  @include relative-font-size(2.0);
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -.015em;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(1.75);
   }
 }
 
+
 .post-content {
   margin-bottom: $spacing-unit;
+
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
 
   h2 {
     @include relative-font-size(2);
@@ -259,6 +272,11 @@
       @include relative-font-size(1.125);
     }
   }
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 .partner-logos img {
@@ -308,4 +326,20 @@
 .people_banner {
   margin: auto;
   padding: 10px;
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56%; /* The height of the item will now be 56% of the width. */
+}
+
+/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }

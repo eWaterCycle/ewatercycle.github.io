@@ -16,12 +16,18 @@ partners:
 # - logo_url: <FIXME AND OPTIONALLY REPEATME>
 #   url: <FIXME AND OPTIONALLY REPEATME>
 
+#collections:
+#- blogposts
+
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
 #  - forecast.md
+ - about.md
  - people.md
-#  - Glossary.md
+ - Glossary.md
+ - Landscape.md
+# - Personas.md
 #  - contact.md
 
 # Build settings
