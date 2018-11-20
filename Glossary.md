@@ -2,7 +2,6 @@
 layout: page
 title: Glossary
 ---
-# eWaterCycle Glossary
 
 This glossary is a list of terms commonly used within the eWaterCycle II system. 
 

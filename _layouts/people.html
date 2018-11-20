@@ -6,6 +6,9 @@
   <body>
 
     {% include header.html %}
+
+    <main class="page-content" aria-label="Content">      
+<div class="wrapper" style="height: 50px; width: 100%; background: white"></div>
     
     <div class="people_banner" >
       <img class="people" src="https://d1rkab7tlqy5f1.cloudfront.net/_processed_/a/f/csm_Giesen-2_d93ca13cab.png" 
@@ -38,13 +41,14 @@
       alt="foto Maarten van Meersbergen" title="Maarten van Meersbergen"  height="150" />
     </div>
 
-    <main class="page-content" aria-label="Content">      
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
 
     {% include footer.html %}
+
+    {% include scripts.html %}
 
   </body>
 </html>

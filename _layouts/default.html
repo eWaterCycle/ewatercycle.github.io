@@ -3,11 +3,12 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="page-top">
 
     {% include header.html %}
 
     <main class="page-content" aria-label="Content">
+      <div class="wrapper" style="height: 50px; width: 100%; background: white"></div>
       <div class="wrapper">
         {{ content }}
       </div>
@@ -15,6 +16,8 @@
 
     {% include footer.html %}
 
+
+    {% include scripts.html %}  
   </body>
 
 </html>

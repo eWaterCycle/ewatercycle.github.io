@@ -24,80 +24,93 @@
   }
 }
 
-.site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
 
-  .nav-trigger {
-      display: none;
-  }
+// Navigation
 
-  .menu-icon {
-    display: none;
-  }
-
-  .page-link {
-    color: $text-color;
-    line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
+.navbar-default {
+    background-color: white;
+    border-color: rgba($grey-color-dark, .5);
+    @include transition-all;
+    .navbar-header .navbar-brand {
+        color: $brand-color;
+        @include relative-font-size(1.2);
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover,
+        &:focus {
+            color: darken($brand-color, 10%);
+        }
     }
-  }
-
-  @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
+    .nav {
+        > li {
+            > a,
+            > a:focus {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 13px;
+                color: $grey-color-dark;
+                &:hover {
+                    color: $brand-color;
+                }
+            }
+            &.active {
+                > a,
+                > a:focus {
+                    color: $brand-color !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
     }
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg path {
-        fill: $grey-color-dark;
-      }
+    @media (min-width: 768px) {
+        background-color: transparent;
+        border-color: rgba($grey-color, .3);
+        .navbar-header .navbar-brand {
+            color: rgba($grey-color, .7);
+            &:hover,
+            &:focus {
+                color: $grey-color;
+            }
+        }
+        .nav > li > a,
+        .nav > li > a:focus {
+            color: rgba($grey-color, .7);
+            &:hover {
+                color: $grey-color;
+            }
+        }
+        &.affix {
+            background-color: white;
+            border-color: rgba($grey-color-dark, .5);
+            .navbar-header .navbar-brand {
+                color: $brand-color;
+                font-size: 14px;
+                &:hover,
+                &:focus {
+                    color: darken($brand-color, 10%);
+                }
+            }
+            .nav > li > a,
+            .nav > li > a:focus {
+                color: $grey-color-dark;
+                &:hover {
+                    color: $brand-color;
+                }
+            }
+        }
     }
+}
 
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
+// Button Styles
+.btn-default {
+    @include button-variant($grey-color-dark, #f0f0f0, white);
+}
 
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
-  }
+.btn-primary {
+    @include button-variant(white, $brand-color, $brand-color);
 }
 
 
