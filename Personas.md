@@ -74,7 +74,7 @@ eWaterCycle will offer a platform that have different models and an environment 
 
 ## Persona - Red Cross Logistics Manager
 
-![right-aligned-image](/assets/redcross.jpg)
+![right-aligned-image](/assets/Redcross.jpg)
 
 Juan is an adventurous 35 year old who wants to save the world. He studied anthropology in the university of Barcelona and after finishing his Master he volunteered for a year in Laos and Cambodia, where he became interested in hydrology. He saw the effect of floods on small poor villages in Laos and Cambodia and decided to dedicate his life to help people in similar situations. He developed a career in the Red Cross and is now the red-cross’s logistic manager for south-east Asia, located in Bangkok, Thailand.
 Juan is mostly interested in flood/cyclones predictions (1st order models), but also in failed harvest predictions (2nd order models) and how can it affect the food supply in the regions in his responsibility (3rd order models).
