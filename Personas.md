@@ -54,7 +54,7 @@ With eWaterCycle the Prof. could run as many experiments as she would like, to c
 
 ## Persona - Deltares consultant
 
-![right-aligned-image](/assets/consultant.jpg)
+![right-aligned-image](/assets/consultant.png)
 
 Bert has a PhD in Geoscience from University van Amsterdam. He is a flood risk analyst in the department Water Risk Analysis at Deltares. He is involved in international flood risk studies, and in developing flood and drought forecasting systems, applied in different regions over the globe.
 As an expert, he is familiar with many hydrological models and he would like to be able to apply the most appropriate ones (play with data assimilation) to eventually come up with concrete recommendations to his employers. 
