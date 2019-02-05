@@ -12,7 +12,6 @@ Growing populations, economies, industries and urbanization are increasing the d
 
 This was exactly the aim of the [eWaterCycle project](https://www.esciencecenter.nl/project/ewatercycle): to predict flood and drought events 10 days in advance, worldwide and at unprecedentedly high resolution.
 
-![]({{ site.url }}/assets/FAIRblog_fig1.jpg)
 
 ### Reproducibility
 
