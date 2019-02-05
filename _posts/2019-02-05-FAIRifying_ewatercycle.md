@@ -12,7 +12,7 @@ Growing populations, economies, industries and urbanization are increasing the d
 
 This was exactly the aim of the [eWaterCycle project](https://www.esciencecenter.nl/project/ewatercycle): to predict flood and drought events 10 days in advance, worldwide and at unprecedentedly high resolution.
 
-![](assets/FAIRblog_fig1.jpg)
+![]({{ site.url }}/assets/FAIRblog_fig1.jpg)
 
 ### Reproducibility
 
@@ -25,7 +25,7 @@ In our effort to FAIRify the system, we relied heavily on both [docker](https://
 It is technically very hard to connect CWL workflow steps in a cyclic manner. Cyclic workflows are much better controlled using a specialized workflow engine for cycling systems. We therefore opted to only describe the workflow steps in CWL and control the workflow using such a workflow engine. Here we used Cylc: a workflow engine that orchestrates distributed suites of interdependent cycling tasks that may continue to run indefinitely. Cylc was originally developed for operational environmental forecasting. Having its roots in environmental forecasting, Cylc provides handy features for these kind of operational forecasts such as clock triggers, event triggers, retry handlers for individual tasks, and more. This allows us for example to wait for input data to be available on the server, retry specific tasks when they failed, or choose alternative paths of the workflow.
 Technical overview FAIRified eWaterCycle system
 
-![Technical overview FAIRified eWaterCycle system](assets/FAIRblog_fig2.png)
+![Technical overview FAIRified eWaterCycle system]({{ site.url }}/assets/FAIRblog_fig2.png)
 
 In essence, the forecast system (picture above) performs a couple of steps that are executed every day:
 
@@ -39,7 +39,7 @@ In essence, the forecast system (picture above) performs a couple of steps that 
 Using a combination of the CWL standard for workflows, Cylc as a workflow engine, and Docker software containers, we were able to create a fully reproducible (low resolution) version of the eWaterCycle forecast. Output is stored at OneData and made available for analysis in a notebook environment. In addition the hydrological forecasts are visualized in a [web application](http://forecast.ewatercycle.org/). The forecast is running daily now, without any manual intervention and runs on supercomputers without changes needed to the software installed on the system.
 Interactive forecast
 
-![[Interactive forecast](http://forecast.ewatercycle.org/)](assets/FAIRblog_fig3.png)
+![[Interactive forecast](http://forecast.ewatercycle.org/)]({{ site.url }}/assets/FAIRblog_fig3.png)
 
 During this project we learned some valuable lessons that we plan to integrate into our larger [eWaterCycle II project](https://www.ewatercycle.org/), with a focus on FAIR hydrological modelling. Some of the lessons learned during this small project include:
 
