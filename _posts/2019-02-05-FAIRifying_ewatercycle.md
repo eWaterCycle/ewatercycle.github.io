@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FAIRifying eWaterCycle: Towards reproducible science and better flooding forecasts"
-image: /assets/photo_FAIR1.jpg
+image: /assets/FAIRblog_fig1.jpg
 authors: "Ronald van Haren"
 ---
 
