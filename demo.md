@@ -5,7 +5,7 @@ title: Demo
 
 This is the current demo of the eWaterCycle project.
 
-In the video below, we show how aour system is able to generate input for a model, run the model, and analyse the results.
+In the video below, we show how the eWaterCycle system is able to generate input for a model, run the model, and analyse the results.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aPztSZ2UFfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
