@@ -30,7 +30,7 @@ Looking forward, in 2020 the eWaterCycle team will focus on finishing (and publi
 
 Whether it is for deciding where flood mitigation measures need to be implemented, or decide if that hydrodam is worth the societal investment, policymakers rely on advice from scientists to base their decisions on. As much as we demand that the policymaking (democratic) process has to be transparent, we should also demand the same from the scientific results that are used as input to this process. eWaterCycle II, being developed in a ‘FAIR by Design’ manner, will provide a transparent and open environment for model studies that policymakers can rely on. While still working on building eWaterCycle II, we wanted to alert policymakers on the need for FAIR by Design and on what we are intending to build with eWaterCycle II. The workshop participant with the most policy expertise of us all, [Caitlyn Hall](https://twitter.com/caitlynahall), presented our vision: “eWaterCycle: Putting the Public in Charge is Only FAIR” in the “Actionable Climate Tools and Data: Rigorous, Accessible Products Tailored to User Needs” session with both a talk and a poster.
 
-![Poster presented at AGU Fall Meeting](/assets/eWaterCyclePublicFiarSMALL.pdf)
+![Poster presented at AGU Fall Meeting](/assets/eWaterCyclePublicFiarSMALL.png)
 
 ## For Research Software Engineers: a stack of re-usable technology
 
