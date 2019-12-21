@@ -21,7 +21,7 @@ So let me tell you instead that we’re working on a tool to do this for others.
 
 In a sense, we’ve been working on a universal translator. A travel adapter that can act as a bridge between any given (meteo) data source, and whatever (hydro) model you happen to be exploring.
 
-That travel adapter is called [ESMValTool](https://www.esmvaltool.org/about.html). It’s an existing tool that has its roots in the climate sciences. It offers efficient and reliable functions for common tasks, such as regridding, interpolation, etc. Subsequently, the data can easily be analysed and visualized. The IPCC uses the tool, for example, to visualize global temperature trends according to 30 or so different climate models. Consistently, reproducibly.
+That travel adapter is called [ESMValTool](https://www.esmvaltool.org/about.html). It’s an existing tool that has its roots in the climate sciences. It offers efficient and reliable functions for common tasks, such as regridding, interpolation, etc. Subsequently, the data can easily be analysed and visualized.
 
 # The climate model output rewriter
 
