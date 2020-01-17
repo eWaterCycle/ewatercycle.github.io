@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FAIR meteorological forcing data: ESMValTool as a travel adapter for model explorers"
+title: "A universal travel adapter: using a climate model validation tool for FAIR hydrology"
 image: /assets/blogpost_travel_adapter1.png
 authors: "Peter Kalverla"
 ---
@@ -13,19 +13,22 @@ Upon arrival at the conference centre (having drained most of my laptop’s batt
 
 As the last participants burnt their tongues to the damping tea and hurried towards the lecture theatre, a distressed phone call took place in the weather room next door. A hydrologist was trying to use the weather centre’s precipitation forecasts for a flood risk assessment but struggled to decode the ingenious grib format of the data.
 
-# One wheel to roll them all
+# (Ab)using a climate tool for the benefit of hydrology
 
 If you’re a hydrologist yourself, you’ve probably developed your own workflow to obtain and transform (meteorological) input data for your go-to model. And if I tell you that we’re working on a tool that’ll do this for you, it’s probably too little, too late. After all, you already have your ‘adapter’.
 
-So let me tell you instead that we’re working on a tool to do this for others. Potential new users of your model. Reviewers that want to check your work. Colleagues, who want to compare your results to theirs. And for other models, so that you don’t have to reinvent the adapter to use said new model.
+I could tell you instead that we’re working on a tool to do this for others. Potential new users of your model. Reviewers that want to check your work. Colleagues, who want to compare your results to theirs. And for other models, so that you don’t have to reinvent the adapter to use said new model. But still, it'd be just another tool.
 
-In a sense, we’ve been working on a universal translator. A travel adapter that can act as a bridge between any given (meteo) data source, and whatever (hydro) model you happen to be exploring.
+So let me tell you that we're gathering existing code and integrating it with an existing tool. A tool that understands many different sources of meteorological data. A tool that comes with efficient and reliable functions for common tasks, such as regridding, interpolation, etc. And moreover, a tool that tracks provenance to facilitate transparancy and reproducibility.
 
-That travel adapter is called [ESMValTool](https://www.esmvaltool.org/about.html). It’s an existing tool that has its roots in the climate sciences. It offers efficient and reliable functions for common tasks, such as regridding, interpolation, etc. Subsequently, the data can easily be analysed and visualized. The IPCC uses the tool, for example, to visualize global temperature trends according to 30 or so different climate models. Consistently, reproducibly.
+That tool is called [ESMValTool](https://www.esmvaltool.org/about.html). It's an open source software project with roots in the climate sciences. It's designed for consistent and reproducible analysis of climate model output data. But instead of analysing these data, we're using the tool to convert them to a format that hydrological models can understand.
 
-# The climate model output rewriter
+# Why?
+Because we want to compare hydrological models, but each model expects different types of input. Because we want the results to be reproducible, but preparation of the forcing data is often a tedious process, which is far from transparent. And because we want to automate this process, to make it easier, more consistent, and less error-prone.
 
-Once upon a time, all these models came with different variable names, units, grids, etc. But it was recognized that some standardization was useful to make it easier to combine data from different models. Long story short, climate scientists now exchange their data according to the CF-conventions.
+# Harmonization of climate model output data
+
+A typical use case of ESMValTool would be visualize global temperature trends according to 30 or so different climate models, for example. Once upon a time, all these models came with different variable names, units, grids, etc. But it was recognized that some standardization was useful to make it easier to combine data from different models. Long story short, climate scientists now exchange their data according to the CF-conventions.
 
 An invaluable tool in this endeavour was the climate model output rewriter (CMOR). As the name suggests, this tool is used to convert climate data to the new standardized format. And this is an ongoing effort, especially for new observational datasets that can be used for model validation.
 
@@ -34,7 +37,7 @@ An invaluable tool in this endeavour was the climate model output rewriter (CMOR
 
 In ESMValTool, the process of making a dataset CF-compliant (the red square in the image above) is called ‘cmorisation’. The work we’ve been doing includes, for example, adding support for ERA-Interim and ERA5. These datasets (among others) are commonly used in hydrological applications.
 
-# A hydro model input rewriter (!?)
+# Passing climate data on to hydrological models
 
 By exploiting the CF-conventions, we immediately have access to a large and growing pool of meteorological datasets. The remaining challenge is thus in passing that data on to hydrological models (the blue square).
 
@@ -53,4 +56,4 @@ A nice aspect of ESMValTool is that it is supported by a large and growing user 
 
 Of course, it also works the other way around. Perhaps, hydrological models will evolve to work out of the box with CF-compliant data files. Or maybe new conventions will emerge. After all, coupling earth system models is an active area of research.
 
-You could say that our work on ESMValTool for eWaterCycle is complete once the tool becomes obsolete. But until that time, it’s a very useful tool to bridge the remaining gaps. For all I know, travel adapters are still around as well. Let's try to make them even easier to use :-).
+You could say that our work on ESMValTool for eWaterCycle II is complete once the tool becomes obsolete. But until that time, it’s a very useful piece of software to bridge the remaining gaps. For all I know, travel adapters are still around as well. Let's try to make them even easier to use :-).
