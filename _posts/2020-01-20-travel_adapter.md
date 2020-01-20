@@ -7,7 +7,7 @@ authors: "Peter Kalverla"
 
 # Introduction
 
-A few weeks ago I represented the eWaterCycle II project at a workshop in Reading, UK. The workshop, co-organized by the [H-SAF](http://hsaf.meteoam.it) and [HEPEX](https://hepex.irstea.fr) communities, was hosted by the European weather agency ECMWF.
+A while ago I represented the eWaterCycle II project at a workshop in Reading, UK. The workshop, co-organized by the [H-SAF](http://hsaf.meteoam.it) and [HEPEX](https://hepex.irstea.fr) communities, was hosted by the European weather agency ECMWF.
 
 Upon arrival at the conference centre (having drained most of my laptop’s battery on the train) I triumphantly produced my travel adapter… only to find out that the 3-prong plug on my charging cable did not fit the ungrounded travel socket. Outside it was raining.
 
