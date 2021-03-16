@@ -9,18 +9,18 @@ cycle.
 
 # Install and run the website locally (for development)
 
+_NB: The following instructions are for Linux.
+On Mac, Ruby version 2.6 may be necessary. You can install a specific version
+with [rbenv](https://github.com/rbenv/rbenv)._
+
 1. Clone the repository, move to its directory
     ```
     git clone git@github.com:eWaterCycle/ewatercycle.github.io.git
     cd ewatercycle.github.io
     ```
 1. Install ruby.
-    On Linux:
     ```
     sudo apt-get install ruby-full
-    ```
-    NB: on Mac, version 2.6 may be necessary. You can install a specific version
-    with [rbenv](https://github.com/rbenv/rbenv).
     ```
 1. Install the required gems
     ```
