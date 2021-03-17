@@ -5,7 +5,8 @@ title: Demo
 
 This is the current demo of the eWaterCycle project.
 
-In the videos below, we show how the eWaterCycle system is able to generate input for a model, run the model, and analyse the results.
+In the videos below, we show how the eWaterCycle system is able to generate
+input for a model, run the model, and analyse the results.
 
 Video showing a Marrmot model:
 
