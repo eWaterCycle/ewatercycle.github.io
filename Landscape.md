@@ -5,8 +5,8 @@ title: Landscape
 
 # eWaterCycle Landscape Overview
 
-*The eWatercycle II project aims to overcome the challenge of locality in
-hydrological models using a Community Multi-Model environment. In eWatercycle II
+*The eWatercycle project aims to overcome the challenge of locality in
+hydrological models using a Community Multi-Model environment. In eWaterCycle
 we will build an e-Infrastructure that will allow quick and safe inclusion of
 sub-models and model concepts into global hydrological models, leading to better
 understanding of the global hydrological cycle. In this document we review the
@@ -380,7 +380,7 @@ analysis of model output and observational data.
 
 ## Friendly Neighbourhood Hydrological Models
 
-*Hydrological models that we would like to include in eWatercycle II (but see
+*Hydrological models that we would like to include in eWaterCycle (but see
 cartoon for unwanted outcome, **credit:** [xkcd](https://xkcd.com/927/)).*
 
 ![center-aligned-image](/assets/standards.png){: .align-center}
