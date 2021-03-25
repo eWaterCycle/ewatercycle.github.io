@@ -18,11 +18,6 @@ Dr. Niels Drost
 ---------------
 Netherlands eScience Center
 
-Dr. Ben van Werkhoven
----------------------
-Netherlands eScience Center
-
-
 Domain Experts
 ==============
 
@@ -33,39 +28,30 @@ Delft​ ​ University​ ​ of​ ​ Technology
 Engineers
 =========
 
-Dr. Berend Weel
----------------
-Netherlands eScience Center
-
-Dr. Inti Pelupessy
-------------------
-Netherlands eScience Center
-
-Dr. Martine de Vos
-------------------
-Netherlands eScience Center
-
-Dr. Yifat Dzigan
-----------------
-Netherlands eScience Center
-
 Stefan Verhoeven, BSc
 ---------------------
 Netherlands eScience Center
 
-Dr. Gijs van den Oord
----------------------
-Netherlands eScience Center
-
-Dr. Ronald van Haren
+Dr. Stef Smeets
 --------------------
 Netherlands eScience Center
 
-Dr. Janneke van der Zwaan
+Dr. Sarah Alidoost
 -------------------------
 Netherlands eScience Center
 
-Maarten van Meersbergen, MSc.
+Bouwe Andela, MSc
+---------------------
+Netherlands eScience Center
+
+Dr. Peter Kalverla
+---------------------
+Netherlands eScience Center
+
+Jaro Camphuijsen, MSc
 -----------------------------
 Netherlands eScience Center
 
+Dr. Barbara Vreede
+-----------------------------
+Netherlands eScience Center
