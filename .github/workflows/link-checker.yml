@@ -9,10 +9,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v1.0.6
         with:
-          args: --verbose --no-progress *.md
+          args: --verbose --no-progress *.html *.md
       - name: Fail if there were link errors
         run:
-          if [ ${{ steps.lychee.outputs.exit_code }} -gt 0 ]; then
-            cat .lychee/out.md
-          fi
           exit ${{ steps.lychee.outputs.exit_code }}
