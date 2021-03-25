@@ -15,7 +15,7 @@ jobs:
             cat ./lychee/out.md
             broken_max=10
             broken=$(grep "://" ./lychee/out.md)
-            broken_count=$(echo "://" | wc -l)
+            broken_count=$(echo "://" ./lychee/out.md | wc -l)
             if [ "$broken_count" -gt "$broken_max" ]; then
                 echo "Number of broken links (${broken_count}) exceeds maximum allowed number (${broken_max})."
                 echo "Broken links: "
