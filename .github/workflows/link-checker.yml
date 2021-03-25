@@ -6,10 +6,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Link Checker
-        uses: peter-evans/link-checker@v1
+        uses: lycheeverse/lychee-action@v1.0.6
         id: lc
         with:
-          args: -v -t 60 -c 16 -d /github/workspace -r *
+          args: --verbose --no-progress *.md
       - name: Count broken links
         run: |
             broken_max=10
