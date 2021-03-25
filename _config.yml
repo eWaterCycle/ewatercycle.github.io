@@ -9,7 +9,7 @@ minima:
   date_format: "%b %-d, %Y"
 
 partners:
-  - logo_url: https://www.esciencecenter.nl/img/pressroom/ESCIENCE_logo_C_nl_cyanblack.jpg
+  - logo_url: https://ewatercycle.github.io/img/logoescience.png
     url: https://www.esciencecenter.nl
   - logo_url: https://ewatercycle.github.io/img/logoTUd_170.jpg
     url: https://www.tudelft.nl/en/
