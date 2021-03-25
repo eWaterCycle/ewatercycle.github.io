@@ -13,7 +13,7 @@ jobs:
       - name: Count broken links
         run: |
             broken_max=10
-            broken=$(grep ERROR /tmp/lychee/out.md)
+            broken=$(grep ERROR /lychee/out.md)
             broken_count=$(echo "$Errors..." | wc -l)
             if [ "$broken_count" -gt "$broken_max" ]; then
                 echo "Number of broken links (${broken_count}) exceeds maximum allowed number (${broken_max})."
