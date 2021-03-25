@@ -12,14 +12,11 @@ jobs:
           args: --verbose --no-progress *.md
       - name: Count broken links
         run: |
-            cat ./lychee/out.md
-            broken_max=10
-            broken=$(grep "://" ./lychee/out.md)
-            broken_count=$(echo "://" ./lychee/out.md | wc -l)
+            broken_max=5
+            broken_count=$(grep "://" ./lychee/out.md | wc -l)
             if [ "$broken_count" -gt "$broken_max" ]; then
                 echo "Number of broken links (${broken_count}) exceeds maximum allowed number (${broken_max})."
-                echo "Broken links: "
-                echo "$broken"
+                cat ./lychee/out.md
                 exit 1
             else
                 echo "Number of broken links (${broken_count}) less than or equal to maximum allowed number (${broken_max})."
