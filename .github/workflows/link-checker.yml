@@ -5,20 +5,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Link Checker
+      - name: lychee Link Checker
+        id: lychee
         uses: lycheeverse/lychee-action@v1.0.6
-        id: lc
         with:
           args: --verbose --no-progress *.md
-      - name: Count broken links
-        run: |
-            broken_max=5
-            broken_count=$(grep "://" ./lychee/out.md | wc -l)
-            if [ "$broken_count" -gt "$broken_max" ]; then
-                echo "Number of broken links (${broken_count}) exceeds maximum allowed number (${broken_max})."
-                cat ./lychee/out.md
-                exit 1
-            else
-                echo "Number of broken links (${broken_count}) less than or equal to maximum allowed number (${broken_max})."
-                exit 0
-            fi
+      - name: Fail if there were link errors
+        run: exit ${{ steps.lychee.outputs.exit_code }}
+      - name: Fail with grep
+        run:
+          check_errors = $(grep "Errors were reported" ./lychee/out.md)
+          if [ -n "$check_errors" ]; then
+            cat .lychee/out.md
+            exit 1
+          else
+            exit 0
+          fi
