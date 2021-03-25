@@ -14,9 +14,8 @@ jobs:
         run: |
             cat ./lychee/out.md
             broken_max=10
-            broken=$(grep "Errors..." ./lychee/out.md)
-
-            broken_count=$(echo "$Errors..." | wc -l)
+            broken=$(grep "://" ./lychee/out.md)
+            broken_count=$(echo "://" | wc -l)
             if [ "$broken_count" -gt "$broken_max" ]; then
                 echo "Number of broken links (${broken_count}) exceeds maximum allowed number (${broken_max})."
                 echo "Broken links: "
@@ -26,5 +25,3 @@ jobs:
                 echo "Number of broken links (${broken_count}) less than or equal to maximum allowed number (${broken_max})."
                 exit 0
             fi
-      - name: Fail if there were link errors
-        run: exit ${{ steps.lychee.outputs.exit_code }}
