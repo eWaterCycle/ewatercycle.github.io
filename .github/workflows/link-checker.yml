@@ -11,13 +11,8 @@ jobs:
         with:
           args: --verbose --no-progress *.md
       - name: Fail if there were link errors
-        run: exit ${{ steps.lychee.outputs.exit_code }}
-      - name: Fail with grep
         run:
-          check_errors = $(grep "Errors were reported" ./lychee/out.md)
-          if [ -n "$check_errors" ]; then
+          if [ ${{ steps.lychee.outputs.exit_code }} -gt 0 ]; then
             cat .lychee/out.md
-            exit 1
-          else
-            exit 0
           fi
+          exit ${{ steps.lychee.outputs.exit_code }}
