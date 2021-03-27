@@ -1,8 +1,11 @@
 name: Link Checker
 on:
-  push
+  push:
+    branches:
+      - master
+      - link-check
   schedule:
-    - cron: '0 0 * * *'  # nightly
+    - cron: '0 0 * * *'  # every night at midnight
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
