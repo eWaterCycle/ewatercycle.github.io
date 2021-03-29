@@ -27,11 +27,10 @@ In this environment, they can, for example, easily:
 
 <figure>
 <div class="aspect-ratio">
-<iframe src="https://www.youtube.com/embed/Lpf0xlMM5Ng" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/uv_9zSGVFJs" frameborder="0" allowfullscreen></iframe>
 </div>
 <figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption>
 </figure>
-
 
 Additionally, we are actively involving the global community of hydrologists
 through our OpenHYDRO platform to:
