@@ -9,9 +9,9 @@ minima:
   date_format: "%b %-d, %Y"
 
 partners:
-  - logo_url: https://ewatercycle.github.io/img/logoescience.png
+  - logo_url: https://ewatercycle.github.io/assets/logoescience.png
     url: https://www.esciencecenter.nl
-  - logo_url: https://ewatercycle.github.io/img/logoTUd_170.jpg
+  - logo_url: https://ewatercycle.github.io/assets/logoTUd_170.jpg
     url: https://www.tudelft.nl/en/
 # - logo_url: <FIXME AND OPTIONALLY REPEATME>
 #   url: <FIXME AND OPTIONALLY REPEATME>
