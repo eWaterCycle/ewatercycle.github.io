@@ -58,7 +58,8 @@ Global Flood Analyzer is a web-based interactive platform which measures river
 flood impacts by urban damage, affected GDP, and affected population at the
 country, state, and river basin scale across the globe, as well as 120 cities.
 
-**[OpenStreams]( broken link ):** A collection of
+**[OpenStreams](https://ui.adsabs.harvard.edu/abs/2012EGUGA..14.3953S/abstract):**
+A collection of
 building blocks for integrated Hydrological models. Integrated modeling means to
 connect multiple models for different domains (e.g., surface water domein and
 groundwater domain) so the interaction processes between the domains will be
@@ -359,7 +360,8 @@ world-class 3D mapping of geospatial data.
 
 **[TerriaJS](http://terria.io/):** GIS data catalogue from Australia
 
-**[GeoWeb]( broken link ):** Web-based visualization for NetCDF
+**[GeoWeb](https://www.knmi.nl/research/observations-data-technology/projects/geoweb-the-next-generation-web-based-tooling-for-monitoring-the-atmosphere):**
+Web-based visualization for NetCDF
 Data. In turn based on [ADAGUC](http://adaguc.knmi.nl/) - OpenDAP/WMS server and
 client.
 
@@ -441,7 +443,7 @@ Global soils and soil properties at 1 km
 **[GRanD](http://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01):** The
 Global Reservoir and Dam Database
 
-**[HYDRO1k]( broken link ):** 1km hydrological DEM and
+**[HYDRO1k](https://doi.org/10.5066/F77P8WN0):** 1km hydrological DEM and
 drainage network
 
 **[HydroSHEDS](http://www.hydrosheds.org/):** Hydrological data and maps based
@@ -457,7 +459,7 @@ forcing from observations 1901-current
 1.25deg](http://apps.ecmwf.int/datasets/data/era40-daily/levtype=sfc/):** Daily
 meteorological forcing from ECMRWF reanalysis 1958-2001
 
-**[ERA-Interim 0.8deg]( broken link ):**
+**[ERA-Interim 0.8deg](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-interim):**
 Daily meteorological forcing from ECMRWF reanalysis 1979-current
 
 **[GPCP](https://www.esrl.noaa.gov/psd/data/gridded/data.gpcp.html):** Global
