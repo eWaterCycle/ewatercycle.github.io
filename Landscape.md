@@ -257,12 +257,6 @@ an open data handling platform. Delft-FEWS is composed by several modules, which
 allows to build a hydrological forecasting system customizable to the
 requirements of specific organizations.
 
-**[ENKI]( broken link ):**
-Hydrological modelling framework - The main focus of the framework is on
-precipitation models and hydropower. Focussed on improving hydrological
-forecasting for hydropower scheduling. Currently, no further development is in
-place.
-
 **[FUSE](https://github.com/ICHydro/r_fuse):** Framework for Understanding
 Structural Errors (R package), dedicated for hydrological modelling.
 
@@ -298,10 +292,6 @@ exist regardless of the presence of water. The wet module reuses some dry module
 features to express the semantics of hydro features. [Sinha,
 2014](http://www.semantic-web-journal.net/system/files/swj675.pdf). No available
 working link to ontology.
-
-**[CUAHSI Ontology]( broken link ):** - supports the
-discovery of time series hydrologic observations including physical, chemical,
-and biological measurements.
 
 **[Water ML](http://www.opengeospatial.org/standards/waterml):** A common
 conceptual feature model for describing typical features of the hydrology domain
@@ -429,8 +419,6 @@ separate forecasts, or ensemble members.
 The Global Forecast System is a weather forecast model produced by the National
 Centers for Environmental Prediction (NCEP).
 
-  **[GLCC]( broken link ):** Land cover data.
-
 **[GLiM](https://www.clisap.de/research/b:-climate-manifestations-and-impacts/crg-chemistry-of-natural-aqueous-solutions/global-lithological-map/):**
 Global surface lithology at 1 km
 
@@ -479,11 +467,6 @@ spanning multiple government agencies and academic institutions. The data
 available include model input and numerical weather prediction gridded output
 from NCEP, and global climate models (GCMs) and simulations from GFDL and other
 international institutions
-
-**[WFD]( broken link ):**
-Watch Forcing Dataset: 0.5deg -  3/6 hourly meteorological forcing from ECMRWF
-reanalysis (ERA40) bias-corrected and extrapolated by CRU TS and GPCP (rainfall)
-and corrections for under catch
 
 **[EWA](http://www.bafg.de/GRDC/EN/04_spcldtbss/42_EWA/ewa_node.html):**
 European Water Archive (catchment data)
