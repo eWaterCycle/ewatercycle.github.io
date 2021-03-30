@@ -18,11 +18,15 @@ Dr. Niels Drost
 ---------------
 Netherlands eScience Center
 
+Dr. Ben van Werkhoven
+---------------------
+Netherlands eScience Center
+
 Domain Experts
 ==============
 
-Jerom Aerts, MSc.
------------------
+Jerom Aerts, MSc
+----------------
 Delft​ ​ University​ ​ of​ ​ Technology
 
 Engineers
