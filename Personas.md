@@ -14,8 +14,6 @@ benefited from the project.*
 
 ## Persona - The PhD student
 
-![right-aligned-image](/assets/phd.jpg)
-
 Femke is a PhD environmental science student in Luik university. She has a MsC
 in environmental science. She would like to have a modeling PhD and publish 4
 papers. She will focus on modeling trees, i.e., % of trees per unit area, amount
@@ -43,8 +41,6 @@ few days and she could access many more models, and compare them for the region
 in question.**
 
 ## Persona - The old Prof.
-
-![right-aligned-image](/assets/oldprof.jpg)
 
 Fatima is a 60 year old professor at Cornell university. She is a famous
 hydrology professor, head of a hydrology group composed of 2 associate
@@ -77,7 +73,6 @@ sub-saharan hydrological society that will involve investments in projects in
 neighboring countries to solve floods on one hand and droughts on the other hand
 (cure hunger and win a nobel prize)?
 
-
 **What can eWatercycle do for her?**
 
 eWaterCycle would provide a platform to run experiments for different regions
@@ -103,8 +98,6 @@ supplement proposals with early analyses to prove the direction suggested is
 valuable.**
 
 ## Persona - Deltares consultant
-
-![right-aligned-image](/assets/consultant.png)
 
 Bert has a PhD in Geoscience from University van Amsterdam. He is a flood risk
 analyst in the department Water Risk Analysis at Deltares. He is involved in
@@ -139,8 +132,6 @@ will take him day(s) to figure which is the best scenario, allowing him to focus
 more on answering the clients questions in detail.**
 
 ## Persona - Red Cross Logistics Manager
-
-![right-aligned-image](/assets/redcross.jpg)
 
 Juan is an adventurous 35 year old who wants to save the world. He studied
 anthropology in the university of Barcelona and after finishing his Master he
