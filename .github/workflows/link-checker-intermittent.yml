@@ -1,11 +1,8 @@
 name: Link Checker
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+  schedule:
+    - cron: '0 0 * * 0'  # every Sunday at midnight
+  workflow_dispatch
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
@@ -16,3 +13,6 @@ jobs:
         uses: lycheeverse/lychee-action@v1.0.6
         with:
           args: --verbose --no-progress *.html *.md
+      - name: Fail if there were link errors
+        run:
+          exit ${{ steps.lychee.outputs.exit_code }}
