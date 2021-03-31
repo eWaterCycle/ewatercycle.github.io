@@ -11,7 +11,7 @@ minima:
 partners:
   - logo_url: /assets/logoescience.png
     url: https://www.esciencecenter.nl
-  - logo_url: https://ewatercycle.github.io/assets/logoTUd_170.jpg
+  - logo_url: /assets/logoTUd_170.jpg
     url: https://www.tudelft.nl/en/
 # - logo_url: <FIXME AND OPTIONALLY REPEATME>
 #   url: <FIXME AND OPTIONALLY REPEATME>
