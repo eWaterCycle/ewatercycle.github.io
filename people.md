@@ -59,3 +59,38 @@ Netherlands eScience Center
 Dr. Barbara Vreede
 ------------------
 Netherlands eScience Center
+
+Past project members
+====================
+
+Dr. Berend Weel
+---------------
+Netherlands eScience Center
+
+Dr. Inti Pelupessy
+------------------
+Netherlands eScience Center
+
+Dr. Martine de Vos
+------------------
+Netherlands eScience Center
+
+Dr. Yifat Dzigan
+----------------
+Netherlands eScience Center
+
+Dr. Gijs van den Oord
+---------------------
+Netherlands eScience Center
+
+Dr. Ronald van Haren
+--------------------
+Netherlands eScience Center
+
+Dr. Janneke van der Zwaan
+-------------------------
+Netherlands eScience Center
+
+Maarten van Meersbergen, MSc.
+-----------------------------
+Netherlands eScience Center
