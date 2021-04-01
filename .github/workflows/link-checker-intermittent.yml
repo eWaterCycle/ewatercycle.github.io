@@ -1,7 +1,8 @@
 name: Link Checker
 on:
   schedule:
-    - cron: '0 0 * * 0'  # every Sunday at midnight
+    - cron: '0 0 * * 4'  # every Thursday at midnight
+  workflow_dispatch:
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
