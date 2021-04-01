@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# eWaterCycle II
+# eWaterCycle
 
 Understanding water movement on a global scale is essential for society
 to predict floods, droughts and the effect of land use on water balance.
@@ -15,7 +15,7 @@ this the curse of locality.
 
 On top of this, existing hydrological models exist in a huge variety of
 programming languages, standards etc. which limits their re-usability
-and reproducibility. In the eWaterCycle II project, we are developing
+and reproducibility. In the eWaterCycle project, we are developing
 a framework in which hydrological modellers can work together in a
 collaborative environment.
 

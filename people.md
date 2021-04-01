@@ -22,16 +22,46 @@ Dr. Ben van Werkhoven
 ---------------------
 Netherlands eScience Center
 
-
 Domain Experts
 ==============
 
-Jerom Aerts, MSc.
------------------
+Jerom Aerts, MSc
+----------------
 Delft​ ​ University​ ​ of​ ​ Technology
 
 Engineers
 =========
+
+Stefan Verhoeven, BSc
+---------------------
+Netherlands eScience Center
+
+Dr. Stef Smeets
+---------------
+Netherlands eScience Center
+
+Dr. Sarah Alidoost
+------------------
+Netherlands eScience Center
+
+Bouwe Andela, MSc
+-----------------
+Netherlands eScience Center
+
+Dr. Peter Kalverla
+------------------
+Netherlands eScience Center
+
+Jaro Camphuijsen, MSc
+---------------------
+Netherlands eScience Center
+
+Dr. Barbara Vreede
+------------------
+Netherlands eScience Center
+
+Past project members
+====================
 
 Dr. Berend Weel
 ---------------
@@ -49,10 +79,6 @@ Dr. Yifat Dzigan
 ----------------
 Netherlands eScience Center
 
-Stefan Verhoeven, BSc
----------------------
-Netherlands eScience Center
-
 Dr. Gijs van den Oord
 ---------------------
 Netherlands eScience Center
@@ -68,4 +94,3 @@ Netherlands eScience Center
 Maarten van Meersbergen, MSc.
 -----------------------------
 Netherlands eScience Center
-

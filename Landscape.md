@@ -5,8 +5,8 @@ title: Landscape
 
 # eWaterCycle Landscape Overview
 
-*The eWatercycle II project aims to overcome the challenge of locality in
-hydrological models using a Community Multi-Model environment. In eWatercycle II
+*The eWatercycle project aims to overcome the challenge of locality in
+hydrological models using a Community Multi-Model environment. In eWaterCycle
 we will build an e-Infrastructure that will allow quick and safe inclusion of
 sub-models and model concepts into global hydrological models, leading to better
 understanding of the global hydrological cycle. In this document we review the
@@ -58,7 +58,8 @@ Global Flood Analyzer is a web-based interactive platform which measures river
 flood impacts by urban damage, affected GDP, and affected population at the
 country, state, and river basin scale across the globe, as well as 120 cities.
 
-**[OpenStreams](https://publicwiki.deltares.nl/display/OpenS):** A collection of
+**[OpenStreams](https://ui.adsabs.harvard.edu/abs/2012EGUGA..14.3953S/abstract):**
+A collection of
 building blocks for integrated Hydrological models. Integrated modeling means to
 connect multiple models for different domains (e.g., surface water domein and
 groundwater domain) so the interaction processes between the domains will be
@@ -66,7 +67,7 @@ taken into account. The aim is to allow integrated modelling, promote usage of
 model tools in different frameworks and settings,and  provide applications for
 model coupling.
 
-**[ESMF](https://www.earthsystemcog.org/projects/esmf/):** Consortium of US
+**[ESMF](https://github.com/esmf-org/esmf):** Consortium of US
 institutes (NASA, National Weather Center, etc.). Hosted by the university of
 Colorado. They deal with Earth Sciences, predominantly oceanography and
 atmospheric physics. Mostly focussed on HPC (native interfaces).
@@ -99,7 +100,7 @@ Currently couples PCR-GLOBWB with Delft3D Flexible Mesh (Deltares) or
 LISFLOOD-FP (University of Bristol). Uses BMI to facilitate the coupling, thus
 models have to be BMI-compatible.
 
-**[Catch X](https://earthwatch.org.uk/get-involved/projects-activities/catchexp):**
+**[Catch X](https://earthwatch.org.uk/our-science/research-topics/catchx):**
 The Catch X open data platform will improve access, or provide access for the first
 time, to standard water balance information at a local catchment level around
 the world. Catch X is a partnership between the University of Leeds, Earthwatch,
@@ -200,7 +201,7 @@ generic environment for data assimilation tasks like parameter calibration and
 measurement filtering. It provides a platform that allows an easy interchange of
 algorithms and models.
 
-**[AMUSE](http://www.amusecode.org/)/[OMUSE](https://bitbucket.org/omuse/omuse):**
+**[AMUSE](http://www.amusecode.org/)/[OMUSE](https://github.com/omuse-geoscience/omuse/):**
 Software framework for multi-physics/multi-scale simulations. AMUSE/OMUSE
 provides an homogeneous environment to interface with existing numerical
 simulation codes. AMUSE was developed for astrophysical applications, while its
@@ -228,7 +229,7 @@ linked water-related datasets, to enrich datasets with additional information
 and/or descriptions of terms. Basically can be used as a source for metadata
 about water-related data sets.
 
-**[Cylc](https://cylc.github.io/cylc/):** A workflow engine for cycling systems.
+**[Cylc](https://cylc.github.io/):** A workflow engine for cycling systems.
 It orchestrates distributed suites of interdependent cycling tasks that may
 continue on indefinitely.
 
@@ -255,12 +256,6 @@ developed as a flood forecasting and warning system, recently it resulted into
 an open data handling platform. Delft-FEWS is composed by several modules, which
 allows to build a hydrological forecasting system customizable to the
 requirements of specific organizations.
-
-**[ENKI](https://www.sintef.no/en/software/enki-hydrological-modelling-framework/):**
-Hydrological modelling framework - The main focus of the framework is on
-precipitation models and hydropower. Focussed on improving hydrological
-forecasting for hydropower scheduling. Currently, no further development is in
-place.
 
 **[FUSE](https://github.com/ICHydro/r_fuse):** Framework for Understanding
 Structural Errors (R package), dedicated for hydrological modelling.
@@ -298,10 +293,6 @@ features to express the semantics of hydro features. [Sinha,
 2014](http://www.semantic-web-journal.net/system/files/swj675.pdf). No available
 working link to ontology.
 
-**[CUAHSI Ontology](http://edscvs.ccny.cuny.edu/cuahsi/):** - supports the
-discovery of time series hydrologic observations including physical, chemical,
-and biological measurements.
-
 **[Water ML](http://www.opengeospatial.org/standards/waterml):** A common
 conceptual feature model for describing typical features of the hydrology domain
 using established models and patterns endorsed by WMO and UNESCO.
@@ -312,7 +303,7 @@ and their associated variables. CSDMS Standard Names were developed to
 facilitate semantic mediation, i.e., name matching, between models and/of data
 sets within the CSDMS modeling framework. The  CSDMS Standard Names is further
 developed in the context of the MINT project and is now called the [GeoScience
-Ontology](http://www.geoscienceontology.org/news.html).
+Ontology](http://www.geoscienceontology.org/).
 
 **[SWEET](https://bioportal.bioontology.org/ontologies/SWEET/?p=summary):** The
 Semantic Web for Earth and Environmental Terminology is a mature foundational
@@ -343,10 +334,7 @@ software repositories.
 
 ## Notebook platforms
 
-**[Pangeo](http://pangeo.pydata.org/hub/login):** Big data geoscience Jupyter
-server.
-
-**[SciServer Compute](http://www.sciserver.org/tools/compute/):** big data
+**[SciServer Compute](https://www.sciserver.org/compute-images/):** big data
 access for SkyServer.
 
 **[SWAN](https://swan.web.cern.ch/):** Service for Web based ANalysis by CERN.
@@ -362,7 +350,8 @@ world-class 3D mapping of geospatial data.
 
 **[TerriaJS](http://terria.io/):** GIS data catalogue from Australia
 
-**[GeoWeb](https://geoweb.knmi.nl/#/):** Web-based visualization for NetCDF
+**[GeoWeb](https://www.knmi.nl/research/observations-data-technology/projects/geoweb-the-next-generation-web-based-tooling-for-monitoring-the-atmosphere):**
+Web-based visualization for NetCDF
 Data. In turn based on [ADAGUC](http://adaguc.knmi.nl/) - OpenDAP/WMS server and
 client.
 
@@ -380,7 +369,7 @@ analysis of model output and observational data.
 
 ## Friendly Neighbourhood Hydrological Models
 
-*Hydrological models that we would like to include in eWatercycle II (but see
+*Hydrological models that we would like to include in eWaterCycle (but see
 cartoon for unwanted outcome, **credit:** [xkcd](https://xkcd.com/927/)).*
 
 ![center-aligned-image](/assets/standards.png){: .align-center}
@@ -390,7 +379,7 @@ Global Water Balance is a large-scale, grid-based hydrological model intended
 for global to regional studies. Resolution of 0.5deg and 5 arcmin in space and
 days in time. [Github link.](https://github.com/UU-Hydro/PCR-GLOBWB_model)
 
-**[WFLOW](https://wflow.readthedocs.io/en/2017.01/):** Hydrological simulations
+**[WFLOW](https://wflow.readthedocs.io/):** Hydrological simulations
 platform that includes various hydrological models (also allows to introduce new
 models using the framework). The different models share the same structure but
 are fairly different with respect to the conceptualisation. The shared software
@@ -420,7 +409,7 @@ alternative modeling options. [Github link.](https://github.com/NCAR/summa)
 
 *Datasets used in hydrological modeling. These datasets are specific and curated
 and include metadata. Some of the datasets comply with the
-[FAIR](https://github.com/FAIRMetrics/Metrics/blob/master/ALL.pdf) principles*
+[FAIR](https://www.go-fair.org/fair-principles/) principles*
 
 **[GEFS](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-ensemble-forecast-system-gefs):**
 The Global Ensemble Forecast System is a weather forecast model made up of 21
@@ -429,8 +418,6 @@ separate forecasts, or ensemble members.
 **[GFS](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/global-forcast-system-gfs):**
 The Global Forecast System is a weather forecast model produced by the National
 Centers for Environmental Prediction (NCEP).
-
-**[GLCC](https://landcover.usgs.gov/landcoverdata.php):** Land cover data.
 
 **[GLiM](https://www.clisap.de/research/b:-climate-manifestations-and-impacts/crg-chemistry-of-natural-aqueous-solutions/global-lithological-map/):**
 Global surface lithology at 1 km
@@ -444,7 +431,7 @@ Global soils and soil properties at 1 km
 **[GRanD](http://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01):** The
 Global Reservoir and Dam Database
 
-**[HYDRO1k](https://lta.cr.usgs.gov/HYDRO1K):** 1km hydrological DEM and
+**[HYDRO1k](https://doi.org/10.5066/F77P8WN0):** 1km hydrological DEM and
 drainage network
 
 **[HydroSHEDS](http://www.hydrosheds.org/):** Hydrological data and maps based
@@ -460,7 +447,7 @@ forcing from observations 1901-current
 1.25deg](http://apps.ecmwf.int/datasets/data/era40-daily/levtype=sfc/):** Daily
 meteorological forcing from ECMRWF reanalysis 1958-2001
 
-**[ERA-Interim 0.8deg](http://data-portal.ecmwf.int/data/d/interim_daily/):**
+**[ERA-Interim 0.8deg](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-interim):**
 Daily meteorological forcing from ECMRWF reanalysis 1979-current
 
 **[GPCP](https://www.esrl.noaa.gov/psd/data/gridded/data.gpcp.html):** Global
@@ -480,11 +467,6 @@ spanning multiple government agencies and academic institutions. The data
 available include model input and numerical weather prediction gridded output
 from NCEP, and global climate models (GCMs) and simulations from GFDL and other
 international institutions
-
-**[WFD](http://www.waterandclimatechange.eu/about/watch-forcing-data-20th-century):**
-Watch Forcing Dataset: 0.5deg -  3/6 hourly meteorological forcing from ECMRWF
-reanalysis (ERA40) bias-corrected and extrapolated by CRU TS and GPCP (rainfall)
-and corrections for under catch
 
 **[EWA](http://www.bafg.de/GRDC/EN/04_spcldtbss/42_EWA/ewa_node.html):**
 European Water Archive (catchment data)

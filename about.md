@@ -17,7 +17,7 @@ On top of this, hydrological models exist in a huge variety of
 programming languages, standards etc. which limits their re-usability
 and reproducibility.
 
-In the eWaterCycle II project, we are developing a framework in which
+In the eWaterCycle project, we are developing a framework in which
 hydrological modelers can work together in a collaborative environment.
 In this environment, they can, for example, easily:
 * Combine models and data independently of programming languages,
@@ -27,18 +27,17 @@ In this environment, they can, for example, easily:
 
 <figure>
 <div class="aspect-ratio">
-<iframe src="https://www.youtube.com/embed/Lpf0xlMM5Ng" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/uv_9zSGVFJs" frameborder="0" allowfullscreen></iframe>
 </div>
 <figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption>
 </figure>
-
 
 Additionally, we are actively involving the global community of hydrologists
 through our OpenHYDRO platform to:
 * Ensure our platform meets the needs of the scientific community,
 * Organize community challenges to explore underrepresented research areas.
 
-The final goal of the eWatercycle II project is to enable the collaborative
+The final goal of the eWaterCycle project is to enable the collaborative
 development of a global hydrological model through the combination of the
 existing local models. In our collaborative environment hydrologists can upload
 and analyze their models and contribute to the greater goal of a community

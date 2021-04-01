@@ -19,7 +19,3 @@ Video showing a wflow model:
 For more videos see our Youtube channel:
 
 [eWaterCycle Youtube channel](https://www.youtube.com/channel/UCXvtnFzNBT1JLoyUR2WiUGA)
-
-At AGU we also have a live demo. We link to it here (login required):
-
-[Live Demo of preprocessing and running models](https://jupyter.ewatercycle.org/hub/static/agu.html)

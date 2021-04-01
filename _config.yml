@@ -1,6 +1,6 @@
-title: eWaterCycle II
+title: eWaterCycle
 description: > # this means to ignore newlines until "baseurl:"
-  The eWaterCycle II project website
+  The eWaterCycle project website
 github_username:  eWaterCycle
 
 # Minima date format
@@ -9,9 +9,9 @@ minima:
   date_format: "%b %-d, %Y"
 
 partners:
-  - logo_url: https://www.esciencecenter.nl/img/pressroom/ESCIENCE_logo_C_nl_cyanblack.jpg
+  - logo_url: /assets/logoescience.png
     url: https://www.esciencecenter.nl
-  - logo_url: https://ewatercycle.github.io/img/logoTUd_170.jpg
+  - logo_url: /assets/logoTUd_170.jpg
     url: https://www.tudelft.nl/en/
 # - logo_url: <FIXME AND OPTIONALLY REPEATME>
 #   url: <FIXME AND OPTIONALLY REPEATME>
