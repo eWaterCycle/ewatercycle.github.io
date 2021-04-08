@@ -1,4 +1,11 @@
+# folders
 _site/
+vendor/
+.bundle/
 .sass-cache/
 .jekyll-cache/
+
+# files
+Gemfile.lock
 .jekyll-metadata
+.ruby-version
