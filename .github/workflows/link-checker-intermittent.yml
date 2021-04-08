@@ -1,7 +1,7 @@
 name: Link Checker
 on:
   schedule:
-    - cron: '0 8 * * 4'  # every Thursday at 8am
+    - cron: '0 4 1 * *'  # every 1st of the month at 6am UTC+2
   workflow_dispatch:
 jobs:
   linkChecker:
