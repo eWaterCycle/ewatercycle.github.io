@@ -42,6 +42,7 @@ with [rbenv](https://github.com/rbenv/rbenv)._
 1. Install the required gems
     ```
     gem install bundler
+    bundle config set --local path 'vendor/bundle'  # this avoids the need for sudo
     bundle install
     ```
 1. Run the website locally
