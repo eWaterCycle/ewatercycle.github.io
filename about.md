@@ -4,44 +4,33 @@ title: About
 ---
 
 
-Understanding water movement on a global scale is essential for society
-to predict floods, droughts and the effect of land use on water balance.
-However, large scale hydrology is difficult because from a hydrological
-point of view, every field, every street, and every part of the world is
-unique. We are able to understand and describe how water moves in these
-locations at a local scale, but due to the extreme spatial variability
-it is difficult to capture such processes at a global scale. We call
-this the curse of locality.
+The eWaterCycle platform is a fully Open Source system designed explicitly to
+advance the state of Open and FAIR Hydrological modelling. While working with
+Hydrologists to create a fully Open and FAIR comparison study, we noticed that
+many ad-hoc tools and scripts are used to create input (forcing, parameters) for
+a hydrological model from the source datasets such as climate reanalysis and
+land-use data. To make this part of the modelling process better reproducible
+and more transparent we have created a common forcing input processing pipeline
+based on an existing climate model analysis tool:
+[ESMValTool](https://www.esmvaltool.org/).
 
-On top of this, hydrological models exist in a huge variety of
-programming languages, standards etc. which limits their re-usability
-and reproducibility.
+Using ESMValTool, the eWaterCycle platform can perform commonly required
+preprocessing steps such as cropping, re-gridding, and variable derivation in a
+standardized manner. If needed, it also allows for custom steps for a
+hydrological model. Our pre-processing pipeline directly supports commonly used
+datasets such as ERA-5, ERA-Interim, and CMIP climate model data, and creates
+ready-to-run forcing data for a number of Hydrological models.
 
-In the eWaterCycle project, we are developing a framework in which
-hydrological modelers can work together in a collaborative environment.
-In this environment, they can, for example, easily:
-* Combine models and data independently of programming languages,
-* Compare models to other models of the same area,
-* Perform data assimilation to improve model accuracy,
-* Reproduce the results obtained by their peers.
+Besides creating forcing data, the eWaterCycle platform allows scientists to run
+Hydrological models in a standardized way using Jupyter notebooks, wrapping the
+models inside a container environment, and interfacing to these using BMI, the
+[Basic Model Interface](https://bmi.readthedocs.io/). The container environment
+(based on Docker) stores the entire software stack, including the operating
+system and libraries, in such a way that a model run can be reproduced using an
+identical software environment on any other computer.
 
-<figure>
-<div class="aspect-ratio">
-<iframe src="https://www.youtube.com/embed/uv_9zSGVFJs" frameborder="0" allowfullscreen></iframe>
-</div>
-<figcaption style="text-align:right">"Minimum Viable Product" demo.</figcaption>
-</figure>
-
-Additionally, we are actively involving the global community of hydrologists
-through our OpenHYDRO platform to:
-* Ensure our platform meets the needs of the scientific community,
-* Organize community challenges to explore underrepresented research areas.
-
-The final goal of the eWaterCycle project is to enable the collaborative
-development of a global hydrological model through the combination of the
-existing local models. In our collaborative environment hydrologists can upload
-and analyze their models and contribute to the greater goal of a community
-built and shared global hydrological model.
-
-To show what we envision for the environment and to collect feedback on our
-efforts at every turn, we have prepared a "Minimum Viable Product" demo above.
+The reproducible processing of forcing and a reproducible software environment
+are important steps towards our goal of fully reproducible, Open, and FAIR
+Hydrological modelling. Ultimately, we hope to make it possible to fully
+reproduce a hydrological model experiment from data pre-processing to analysis,
+using only a few clicks.
