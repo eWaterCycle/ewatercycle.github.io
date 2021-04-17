@@ -97,7 +97,7 @@ _(13:30–15:00)_
 14:17-14:19\\
 [Preprocessing of hydrological models’ input in eWaterCycle with
 ESMValTool](https://meetingorganizer.copernicus.org/EGU21/EGU21-6051.html)\\
-Fakhereh Alidoost, the Netherlands eScience Center
+Fakhereh Alidoost, the eWaterCycle team
 
 ### Thursday April 29th
 
