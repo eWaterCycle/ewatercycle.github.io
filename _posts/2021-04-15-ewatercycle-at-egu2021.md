@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Come and see eWatercycle at vEGU21!"
-image: /assets/egu2021.png
+image: /assets/ewa_at_egu2021.png
 authors: "eWatercycle team"
 ---
 
@@ -36,8 +36,6 @@ Lab](https://meetingorganizer.copernicus.org/EGU21/EGU21-4805.html)\\
 Peter C. Kalverla, Stef Smeets, Niels Drost, Bouwe Andela,
 Fakhereh Alidoost, Jaro Camphuijsen
 
----
-
 _Session [HS1.2.4](https://meetingorganizer.copernicus.org/EGU21/session/39110)_
 _(11:00-12:30):_
 
@@ -46,8 +44,6 @@ _(11:00-12:30):_
 or for Star
 Trek?](https://meetingorganizer.copernicus.org/EGU21/EGU21-8985.html)\\
 Rolf Hut
-
----
 
 _Session [HS1.2.1](https://meetingorganizer.copernicus.org/EGU21/session/38761)_
 _(13:30-15:00):_
@@ -87,8 +83,6 @@ dataset](https://meetingorganizer.copernicus.org/EGU21/EGU21-10680.html)\\
 Jerom Aerts, Albrecht Weerts, Willem van Verseveld, Pieter Hazenberg,
 Niels Drost, Rolf Hut, Nick van de Giesen
 
----
-
 _Session [ESSI3.7](https://meetingorganizer.copernicus.org/EGU21/session/40119)_
 _(13:30–15:00)_
 
@@ -96,8 +90,6 @@ _(13:30–15:00)_
 [_era5cli_: the command line interface to ERA5
 data](https://meetingorganizer.copernicus.org/EGU21/EGU21-4895.html)\\
 Stef Smeets, the eWaterCycle team
-
----
 
 _Session [HS2.2.1](https://meetingorganizer.copernicus.org/EGU21/session/39631)_
 _(13:30–15:00)_
@@ -124,7 +116,7 @@ Hydrological
 Platform](https://meetingorganizer.copernicus.org/EGU21/EGU21-9452.html)\\
 Rolf Hut, Niels Drost, Jerom Aerts, _et al._
 
-**Hot tip!** _If this is not enough? You can [search the
+_**Hot tip!** If this is not enough, you can [search the
 program](https://meetingorganizer.copernicus.org/EGU21/meetingprogramme) for
 [our names](people.md) to find more sessions with our contributions._
 
