@@ -60,7 +60,7 @@ Dr. Barbara Vreede
 ------------------
 Netherlands eScience Center
 
-Contributors / past project members
+Contributors
 ===================================
 
 Dr. Berend Weel
