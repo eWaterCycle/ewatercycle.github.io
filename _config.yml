@@ -27,8 +27,8 @@ header_pages:
  - people.md
  - Glossary.md
  - Landscape.md
+ - contact.md
 # - Personas.md
-#  - contact.md
 
 # Build settings
 markdown: kramdown
