@@ -19,4 +19,6 @@ and reproducibility. In the eWaterCycle project, we are developing
 a framework in which hydrological modellers can work together in a
 collaborative environment.
 
+To get in touch and signup for our newsletter, please see [the contact page](/contact)
+
 # Blog posts

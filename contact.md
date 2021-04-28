@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+permalink: /contact/
 ---
 
 In case you have any questions or comments on eWaterCycle you can reach us at ewatercycle@esciencecenter.nl
