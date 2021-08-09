@@ -36,10 +36,6 @@ Stefan Verhoeven, BSc
 ---------------------
 Netherlands eScience Center
 
-Dr. Stef Smeets
----------------
-Netherlands eScience Center
-
 Dr. Sarah Alidoost
 ------------------
 Netherlands eScience Center
@@ -93,4 +89,8 @@ Netherlands eScience Center
 
 Maarten van Meersbergen, MSc.
 -----------------------------
+Netherlands eScience Center
+
+Dr. Stef Smeets
+---------------
 Netherlands eScience Center
