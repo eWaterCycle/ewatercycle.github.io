@@ -21,4 +21,6 @@ collaborative environment.
 
 To get in touch and signup for our newsletter, please see [the contact page](/contact)
 
+The eWatercycle platform is documented at [https://ewatercycle.readthedocs.io/](https://ewatercycle.readthedocs.io/).
+
 # Blog posts
