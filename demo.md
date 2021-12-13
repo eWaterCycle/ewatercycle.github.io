@@ -11,7 +11,7 @@ This is the information page of the eWaterCycle project. Here you find links to 
 
 ## a 15 minute video introducing the eWaterCycle platform:
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=eE75dtIJ1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eE75dtIJ1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The scientific paper on eWaterCycle currently in review in the journal Geoscientific Model Development (GMD)
 
