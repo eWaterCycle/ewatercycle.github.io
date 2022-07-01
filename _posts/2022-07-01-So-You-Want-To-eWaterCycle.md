@@ -5,16 +5,12 @@ image: /assets/era5cli_poster.png
 authors: "Rolf Hut"
 ---
 
-## So you want to eWaterCycle?
-
 eWaterCycle is a platform for Open and FAIR Hydrological research collaboration. We’ve built eWaterCycle to allow hydrologists to work with each other's models and data and to do so in a way that is FAIR by design. On top of that, eWaterCycle is easy to use and available now. If that gets you excited to work with eWaterCycle, we totally understand. But where to start? This short blog will guide you on how to get started working with eWaterCycle.
 
 
 ## So what is eWaterCycle?
 
 At its core, eWaterCycle is a software stack, a collection of programs and libraries, that allow users (hydrologists) to do numerical experiments using hydrological models. eWaterCycle takes away much of the pain involved in 
-
-
 
 * Getting someone elses model to run.
 * Getting input (forcing) files in the correct format for your chosen model.
@@ -24,21 +20,13 @@ eWaterCycle is a platform that gives users access to hydrological models and (in
 
 Detailed information on eWaterCycle can be found in our paper in Geoscientific Model Development, which is also the paper to cite if you use eWaterCycle to conduct your research. You can find that paper here: [https://doi.org/10.5194/gmd-2021-344](https://doi.org/10.5194/gmd-2021-344). A brief introduction into eWaterCycle is given in the video below.
 
-[insert youtube video]
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/eE75dtIJ1lk/1.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 ## Where is eWaterCycle currently running / hosted
 
 This platform needs to run somewhere. In theory you can install eWaterCycle on a laptop[^1]. However the datasets required to run hydrological models are usually quite large. Therefore you don’t typically run eWaterCycle on a laptop, but on dedicated high performance computer infrastructure. We have a few options to help get you started with eWaterCycle. The options are described below and summarized in this flow diagram.
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
+![alt_text](assets/So_You_Want_To_eWaterCycle_diagram.png "Flowchart")
 
 ### A quick look at eWaterCycle on our demonstration machine
 
