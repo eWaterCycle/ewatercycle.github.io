@@ -31,7 +31,7 @@ This platform needs to run somewhere. In theory you can install eWaterCycle on a
 
 If you want to get a feel for the eWaterCycle platform we have a small demonstration machine available. You will need a login for this machine which we will email you if you fill in this form. This machine is completely wiped and restarted regularly, including all login information. So don’t get excited and start doing research as this machine is only intended to take a quick look around, generate a hydrograph and play around with the options, not to do research. To get to know the platform we recommend looking at the use cases from the GMD paper which live in their own repository and can be accessed through the “Tech Paper Notebooks” button at the top of the screen in the explorer. Or you can use the explorer to browse the available models and datasets and let the system generate a notebook for you.
 
-### Run eWaterCycle on your own SURF researchCloud account
+### Run eWaterCycle on your own SURF Research Cloud account
 
 Researchers with an account[^2] on the [SURF researchCloud](https://portal.live.surfresearchcloud.nl/) can start up their own machine. This machine will out of the box be able to run a few example models and datasets, such as PCRGlobWB and WFLOW for the Rhine Area. Users can add their own models and datasets following the steps explained in the [documentation](https://ewatercycle.readthedocs.io/en/latest/adding_models.html).
 
