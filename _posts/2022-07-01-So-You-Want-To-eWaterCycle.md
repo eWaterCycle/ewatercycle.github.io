@@ -33,13 +33,13 @@ If you want to get a feel for the eWaterCycle platform we have a small demonstra
 
 ### Run eWaterCycle on your own SURF Research Cloud account
 
-Researchers with an account[^2] on the [SURF researchCloud](https://portal.live.surfresearchcloud.nl/) can start up their own machine. This machine will out of the box be able to run a few example models and datasets, such as PCRGlobWB and WFLOW for the Rhine Area. Users can add their own models and datasets following the steps explained in the [documentation](https://ewatercycle.readthedocs.io/en/latest/adding_models.html).
+Researchers with an account[^2] on the [SURF researchCloud](https://www.surf.nl/en/surf-research-cloud-collaboration-portal-for-research) can start up their own machine. This machine will out of the box be able to run a few example models and datasets, such as PCRGlobWB and WFLOW for the Rhine Area. Users can add their own models and datasets following the steps explained in the [documentation](https://ewatercycle.readthedocs.io/en/latest/adding_models.html).
 
 Note that multiple users can work on one machine. This is handled by the SURF Research Access Management ([SRAM](https://wiki.surfnet.nl/display/SRAM/)) system.  
 
 ### Run eWaterCycle on your own machine
 
-For researchers with access to their own machine there is the option of installing eWaterCycle on it and providing access to users of that machine. This machine should run Linux and have plenty of storage. While in theory this machine could be a laptop, usually this will be a server where users login. Following the steps at [TODO link] provide you with all the needed info.To save many headaches we recommend that Installing eWaterCycle on your own hpc or cloud infra is done by system administrators or research software engineers who are comfortable doing so.
+For researchers with access to their own machine there is the option of installing eWaterCycle on it and providing access to users of that machine. This machine should run Linux and have plenty of storage. While in theory this machine could be a laptop, usually this will be a server where users login. Following the steps at [the system setup page of the documentation](https://ewatercycle.readthedocs.io/en/latest/system_setup.html) provides you with all the needed info.To save many headaches we recommend that Installing eWaterCycle on your own hpc or cloud infra is done by system administrators or research software engineers who are comfortable doing so.
 
 ### Models and datasets
 
@@ -63,7 +63,7 @@ Of course we are using eWaterCycle for our own hydrology research. Recent exampl
 * Large-sample assessment of spatial scaling effects of the distributed wflow_sbm hydrological model shows that finer spatial resolution does not necessarily lead to better streamflow estimates ([Aerts 2021, in Review in HESS](https://doi.org/10.5194/hess-2021-605))  
 
 #### eWaterCycle far future
-We are currently looking for funds and partnerships to keep on expanding both access to eWaterCycle as well as expanding the features of, and models and data available through, eWaterCycle. If you want to collaborate, or host eWaterCycle for your community or for the entire world, please contact us at [questions@ewatercycle.org](mailto:questions@ewatercycle.org). 
+We are currently looking for funds and partnerships to keep on expanding both access to eWaterCycle as well as expanding the features of, and models and data available through, eWaterCycle. For example, adding support for more easily adding your own datasets and models to eWaterCycle is high on our wishlist. If you want to collaborate, or host eWaterCycle for your community or for the entire world, please contact us at [questions@ewatercycle.org](mailto:questions@ewatercycle.org). 
 
 <!-- Footnotes themselves at the bottom. -->
 ## Notes
