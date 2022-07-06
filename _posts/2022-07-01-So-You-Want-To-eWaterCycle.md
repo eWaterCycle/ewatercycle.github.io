@@ -43,7 +43,7 @@ For researchers with access to their own machine there is the option of installi
 
 ### Models and datasets
 
-All of the above ways of working with eWaterCycle will give you access to the models and datasets that ‘ship’ with the package. On our demonstration machine we have added a few more datasets, see [https://www.ewatercycle.org/demo](https://www.ewatercycle.org/demo) for details. eWaterCycle is a work in progress and we keep adding models and datasets as we move forward. 
+All of the above ways of working with eWaterCycle will give you access to the models and example datasets that are supported by the package. More datasets can be added in the process of setting up the platform. On our demonstration machine we have several additional datasets, see [https://www.ewatercycle.org/demo](https://www.ewatercycle.org/demo) for details. eWaterCycle is a work in progress and we keep adding models and datasets as we move forward. 
 
 Currently adding one's own model requires quite a few steps as described [in the documentation](https://ewatercycle.readthedocs.io/en/latest/adding_models.html). Simplifying this process is one of the things we will be working on in the future (see below). 
 
