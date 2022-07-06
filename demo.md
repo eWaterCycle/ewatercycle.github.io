@@ -7,7 +7,7 @@ If you would like to use the eWaterCycle platform, we have a machine available f
 
 You can find the machine at https://demo1.ewatercycle-nle.src.surf-hosted.nl/
 
-Note that you need an account for the demo machine. Please contact us to get one.
+Note that you can use the explorer to browse available models and datasets. To start an experiment on our Jupyterhub you need an account. Please contact us at questions@ewatercycle.org to get one.
 
 
 ## Models available on the demo machine in the explorer
