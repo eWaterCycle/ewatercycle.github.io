@@ -53,7 +53,7 @@ Our goal is to provide easy access to eWaterCycle to as many researchers and stu
 
 #### eWaterCycle for education: Open Educational Resources
 
-Through a grant of the Dutch ministry of Education and Science we will be importing all educational material on computational hydrological modeling being taught at Dutch universities into eWaterCycle and make those available as ‘Open Educational Resources’ for anyone to use. We in this case is a collaboration between Delft University of Technology, Wageningen University and Research, University Twente and the Netherlands eScience center. 
+Through [a grant of the Dutch ministry of Education and Science](https://www.surf.nl/en/hydrological-modeling-with-ewatercycle) we will be importing all educational material on computational hydrological modeling being taught at Dutch universities into eWaterCycle and make those available as ‘Open Educational Resources’ for anyone to use. We in this case is a collaboration between Delft University of Technology, Wageningen University and Research, University Twente and the Netherlands eScience Center. 
 
 #### eWaterCycle at Delft University of Technology
 
