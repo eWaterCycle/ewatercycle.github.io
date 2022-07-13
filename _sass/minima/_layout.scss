@@ -242,12 +242,12 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 1.58;
-  letter-spacing: -.003em;
+  // font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  // font-style: normal;
+  // font-weight: 400;
+  // font-size: 21px;
+  // line-height: 1.58;
+  // letter-spacing: -.003em;
 
   h2 {
     @include relative-font-size(2);
