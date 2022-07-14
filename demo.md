@@ -10,7 +10,7 @@ You can find the machine at https://demo1.ewatercycle-nle.src.surf-hosted.nl/
 Note that you need an account to start an experiment on our Jupyterhub. Please contact us at questions@ewatercycle.org to get one. Without an account, you can still browse the explorer. 
 
 
-## Models available on the demo machine in the explorer
+### Models available on the demo machine in the explorer
 
 The eWaterCycle explorer can generate a notebook for you that runs a simple experiment using the selected model, forcing, and parameter set.
 
@@ -20,7 +20,7 @@ The eWaterCycle explorer can generate a notebook for you that runs a simple expe
 | PCRGlobWB |
 | Wflow |
 
-## Parameter Sets available on the demo machine
+### Parameter Sets available on the demo machine
 
 The demo machines contains a selection of parameter sets we use to develop and test the eWaterCyce platform. This makes it possible to quickly try out the eWaterCycle platform. As the demo machine is used for various developments, the data available on this machine may change without notice.
 
@@ -67,7 +67,7 @@ Which parameter sets are available on any machine running the eWaterCycle platfo
 
 
 
-## Frequently asked questions
+### Frequently asked questions
 
 **Q: Why do I get an error if I change the start and end date of my simulation?**
 
